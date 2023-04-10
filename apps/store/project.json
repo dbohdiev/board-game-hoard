@@ -4,7 +4,7 @@
   "projectType": "application",
   "prefix": "bg-hoard",
   "sourceRoot": "apps/store/src",
-  "tags": [],
+  "tags": ["scope:store", "type:app"],
   "targets": {
     "build": {
       "executor": "@angular-devkit/build-angular:browser",
