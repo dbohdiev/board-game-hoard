@@ -5,6 +5,8 @@
   "scripts": {},
   "private": true,
   "dependencies": {
+    "@angular/cdk": "^15.2.6",
+    "@angular/material": "^15.2.6",
     "@nrwl/angular": "^15.9.2"
   },
   "devDependencies": {
