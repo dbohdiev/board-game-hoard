@@ -4,6 +4,7 @@ import { getAllGames } from '../fake-api';
 import { RouterModule } from '@angular/router';
 import { CommonModule } from '@angular/common';
 import { StoreUiSharedModule } from "@bg-hoard/store/ui-shared";
+import { formatRating } from '@bg-hoard/store/util-formatters';
 
 @Component({
   selector: 'bg-hoard-root',
@@ -15,4 +16,5 @@ import { StoreUiSharedModule } from "@bg-hoard/store/ui-shared";
 export class AppComponent {
   title = 'Board Game Hoard';
   games = getAllGames();
+  formatRating = formatRating;
 }
