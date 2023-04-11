@@ -1,5 +1,10 @@
 {
   "name": "bg-hoard",
+  "nx": {
+    "implicitDependencies": {
+      ".github/workflows/ci.yml": "*"
+    }
+  },
   "version": "0.0.0",
   "license": "MIT",
   "scripts": {},
